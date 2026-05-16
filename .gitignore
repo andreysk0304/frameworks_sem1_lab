@@ -65,3 +65,21 @@ GUI_BROWSER_SETUP.md
 */config.yaml
 
 *.idea
+.idea/
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Lab 3 local/generated artifacts
+_tmp_monyzik_frameworks_labs/
+lab3/frames/
+lab3/crops/
+lab3/annotations/
+lab3/image/
+lab3/images/
+lab3/output_result.mp4
+lab3/best_detector.pth
+lab3/*.pth
+lab3/*.pt
